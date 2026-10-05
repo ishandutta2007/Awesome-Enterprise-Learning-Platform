@@ -1,159 +1,126 @@
-# Awesome-Enterprise-Learning-Platform
-
-# Awesome-Enterprise-Learning-Platform
-
-
-
-**Curated List of SaaS Products & Open-Source GitHub Projects**
-
-*Focused on Corporate LMS, Learning Experience Platforms (LXP), Compliance Training & Skills Development*
-
-**Last updated: October 2026**
-
-
-
-This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Learning**. These tools help organizations deliver training, track compliance, develop employee skills, and create learning experiences that scale across the workforce.
-
-
-
-**Examples** include Microsoft Viva Learning, Cornerstone OnDemand, Docebo, Absorb LMS, SAP Litmos, 360Learning, Degreed, EdCast, LearnUpon, and TalentLMS (the category leaders).
-
-
-
-**Open-source emphasis**: The open-source enterprise learning ecosystem is **exceptionally mature and production-proven**. **Moodle** is the most widely deployed open-source LMS globally, used by **300M+ users worldwide** with **2,000+ plugins** and full SCORM/LTI compliance . **Open edX** powers edX.org and handles millions of learners at MOOC scale . **Chamilo** offers a lighter alternative for small teams, and **Canvas LMS** provides the best UI/UX among open-source options .
-
-
-
-## 📖 Table of Contents
-
-
-
-- [☁️ SaaS/Hosted Platforms](#-saas-hosted-platforms)
-
-- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
-
-- [🤝 How to Contribute](#how-to-contribute)
-
-- [⚠️ Disclaimer](#-disclaimer)
-
-
-
-## ☁️ SaaS/Hosted Platforms
-
-
-
-> **📊 Market Context**: The global enterprise learning platform market is estimated at **~$25B in 2026**, growing toward **~$50B by 2032**. The sector is **moderately fragmented** — **Oracle, Schoox, and Cornerstone** lead overall in the ISG Buyers Guide 2026, with Absorb, Docebo, LearnUpon, SAP, and Workday rated Exemplary . **Pricing varies dramatically**: Microsoft Viva Learning is **$4/user/month** (annual) , Cornerstone OnDemand starts at **~$6/employee/month** for learning modules and **$15–$25/employee/month** for the full TXP suite , Absorb LMS benchmarks at **mid-five figures annually for 500+ learners** , SAP Litmos Pro Edition is **$7.92/user/month** , and 360Learning Team plan is **$8/active user/month** . No single vendor holds a winner-take-all position; enterprises typically run multi-vendor stacks.
-
-
-
-| Platform | Description | Pricing (Starting Tier) | Free Tier Limits | Company Size |
-
-|----------|-------------|------------------------|------------------|--------------|
-
-| **[Microsoft Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning)** | **Microsoft's learning platform within Viva.** Integrates LinkedIn Learning, Microsoft Learn, and third-party content into Microsoft 365 and Teams. | **$4.00/user/month** (annual commitment) . **Viva Suite**: **$12.00/user/month** . | **No perpetual free tier**. **One-month free trial** available, converting to 12-month paid subscription . | **~$281B revenue (Microsoft FY2025)** |
-
-| **[Cornerstone OnDemand](https://www.cornerstoneondemand.com/)** | **Comprehensive talent experience platform.** Learning, performance, recruiting, and HR modules. Ranked top three overall in ISG 2026 . | **Learning module**: **$6–$10/employee/month** ($72K–$120K/year for 1,000 employees) . **Full TXP Suite**: **$15–$25/employee/month** ($180K–$300K/year for 1,000 employees) . | **No free tier**. **Demo** required. Volume discounts of **15–30%** for 500+ users . | **Public (CSOD), ~$850M+ revenue est.** |
-
-| **[Docebo](https://www.docebo.com/)** | **AI-powered LMS with modern UI.** Ranked Exemplary in ISG 2026 . Three tiers: Engage, Enterprise, Enterprise Plus . | **Custom pricing** — quote required. **Engage**: Entry-level. **Enterprise**: Advanced AI, analytics, API. **Enterprise Plus**: Premium AI, dedicated success manager . | **No free tier**. **Free trial** available. Multi-year commitments yield **15–30%** discounts . | **Public (DCBO), ~$200M+ revenue est.** |
-
-| **[Absorb LMS](https://www.absorblms.com/)** | **Enterprise-grade LMS with advanced analytics and AI.** Rated Exemplary in ISG 2026 . | **Mid-five figures annually for 500+ learners** . **Example**: 2,000 active users = **$8,594.60/quarter** with 25% discount . | **No free tier**. **Free trial** available. Implementation: **$5K–$50K+** . | **Private (~$100M+ revenue est.)** |
-
-| **[SAP Litmos](https://www.litmos.com/)** | **Corporate LMS for compliance and training.** Two tiers: Foundation and Platinum AI . | **Pro Edition**: **$7.92/user/month** (ADP Marketplace) . **Pro + Courses**: **$19.92/user/month** . | **14-day free trial** (ADP Marketplace) . **No perpetual free tier**. Median contract: **$45,000/year** . | **Part of SAP (~$35B revenue)** |
-
-| **[360Learning](https://360learning.com/)** | **Collaborative learning platform.** Peer-to-peer content creation and engagement-focused LMS. | **Team plan**: **$8/active user/month** . **Pro plan**: Custom pricing. | **Free trial** available. **No perpetual free tier**. Implementation: **$5K–$40K+** . | **Public (360Learning), ~$100M+ revenue est.** |
-
-| **[Degreed](https://degreed.com/)** | **Learning experience platform (LXP).** Aggregates content from multiple sources and tracks skills. | **Entry-level**: **$10,000–$25,000/year** (100–500 users). **Mid-tier**: **$25,000–$75,000/year** (500–2,000 users). **Enterprise**: **$75,000–$300,000+/year** (2,000+ users) . | **No free tier**. **Demo** required. | **Private (~$1.4B valuation est.)** |
-
-| **[LearnUpon](https://www.learnupon.com/)** | **Unified LMS for employees, customers, and partners.** Rated Exemplary in ISG 2026 . | **Custom pricing** — quote required. **From 100 users** for Employee plan, **300 users** for Customer Education, **150 users** for Associations . | **No perpetual free tier**. **Demo** required. **Not a fit for under 100 users** . | **Private (~$100M+ revenue est.)** |
-
-| **[TalentLMS](https://www.talentlms.com/)** | **Cloud LMS for SMBs and mid-market.** | **Starting at $149/month** (Software Advice) . **Per active user**, monthly or annual. | **Free tier**: Up to **5 users**, limited features. **Free trial** available. | **Part of Epignosis** |
-
-| **[EdCast](https://www.edcast.com/)** | **Learning experience platform (LXP) with content curation.** | **Custom pricing** — quote required. **Starting at $1.00/year** (Software Advice) . | **Free trial** and **free version** available . | **Part of Cornerstone** |
-
-
-
-## 🔓 Open-Source GitHub Projects
-
-
-
-Sorted by relevance and scale. Star badge links to each repo's stargazers page.
-
-
-
-| Repo | Description | Stars |
-
-|------|-------------|-------|
-
-| **[Moodle](https://github.com/moodle/moodle)** — **The most widely deployed open-source LMS globally.** Used by **300M+ users worldwide** in 240+ countries . **2,000+ plugins**, SCORM 1.2/2004 and LTI compliant. Courses, quizzes (40+ question types), assignments with rubrics, forums, wikis, competency frameworks, and badges. **GPL-3.0**. | [![Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) | ~6,500 |
-
-| **[Open edX](https://github.com/openedx/edx-platform)** — **Best for MOOCs and massive-scale learning.** Powers edX.org, built by MIT and Harvard. Video-based learning paths, discussion forums, auto-graded programming exercises, and certificates. Handles **millions of learners** at scale . **AGPL-3.0**. | [![Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers) | ~7,000 |
-
-| **[Canvas LMS](https://github.com/instructure/canvas-lms)** — **Best UI/UX among open-source LMS.** Modern interface, clean assignment workflow, students actually like it . **AGPL-3.0**. | [![Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers) | ~5,500 |
-
-| **[Chamilo](https://github.com/chamilo/chamilo-lms)** — **Best for small teams.** Lighter than Moodle, simpler admin UI, faster to set up. Quizzes, assignments, learning paths, video conferencing (BigBlueButton integration), and social learning features. **2 GB RAM** is workable . **GPL-3.0**. | [![Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers) | ~700 |
-
-| **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)** — **Best for compliance training.** German-engineered with strong assessment and competency tracking. SCORM 2004, detailed competency frameworks. Widely used in corporate compliance and government education in Europe . **GPL-3.0**. | [![Stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers) | ~500 |
-
-| **[Kolibri](https://github.com/learningequality/kolibri)** — **Best for offline/low-bandwidth education.** Minimal server requirements. Designed for offline education . **MIT**. | [![Stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers) | ~1,500 |
-
-
-
-**Additional open-source options worth exploring:**
-
-
-
-| Repo | Description |
-
-|------|-------------|
-
-| **[LearnDash](https://github.com/LearnDashHQ/learndash)** — WordPress LMS plugin. Starting at **$29/month** . Commercial but widely used. |
-
-| **[OpenOLAT](https://github.com/OpenOLAT/OpenOLAT)** — Java-based LMS with strong assessment capabilities. |
-
-| **[Sakai](https://github.com/sakaiproject/sakai)** — Collaborative learning environment for higher education. |
-
-| **[Gibbon](https://github.com/GibbonEdu/core)** — School management system with LMS capabilities. |
-
-| **[Frappe LMS](https://github.com/frappe/lms)** — Modern, open-source LMS built on the Frappe framework. |
-
-
-
-## 🤝 How to Contribute
-
-
-
-1. Fork the repo.
-
-2. Add/edit entries in `README.md` (follow existing format).
-
-3. Include: name, link, 1–2 sentence description, and whether it's SaaS or open-source.
-
-4. Submit PR with a short explanation.
-
-
-
-Star the repo if you find it useful!
-
-
-
-## ⚠️ Disclaimer
-
-
-
-- This is a **community-curated** list — not exhaustive and not an endorsement.
-
-- Enterprise learning platforms handle sensitive employee and training data; ensure compliance with GDPR, CCPA, and applicable data protection regulations.
-
-- **Open-source reality**: The open-source ecosystem for enterprise learning is **exceptionally mature and production-proven**. **Moodle** is the most widely deployed open-source LMS globally with **300M+ users** and **2,000+ plugins** . **Open edX** handles MOOC-scale learning for millions of students . **Chamilo** and **Canvas LMS** provide lighter and more modern alternatives . However, **commercial platforms** (Cornerstone, Docebo, Absorb) provide **managed infrastructure, AI-powered personalization, and enterprise support** that open-source alternatives require significant operational investment to match. The open-source path is **genuinely viable** for organizations with strong IT capacity seeking full data sovereignty and cost control.
-
-- **Pricing caveat**: All pricing figures are **verified against cited search results** but may change without notice. **Microsoft Viva Learning is $4/user/month** . **Cornerstone starts at $6/employee/month** for learning . **Docebo has no public pricing** — "Get Your Pricing" form required . **SAP Litmos Pro Edition is $7.92/user/month** . **360Learning Team plan is $8/active user/month** . Always request a formal quote for accurate budgeting.
-
-
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Platform">
+    <img src="assets/banner.svg" alt="Awesome Enterprise Learning Platform Banner" width="100%">
+  </a>
+</p>
+
+# 🎓 Awesome Enterprise Learning Platform & LMS
+
+<p align="center">
+  <a href="https://github.com/ishandutta2007/Awesome-Awesome-Awesome"><img src="https://img.shields.io/badge/Awesome-%E2%9C%94-blueviolet?style=flat-square&logo=github" alt="Awesome"/></a>
+  <a href="https://discord.gg/jc4xtF58Ve"><img src="https://img.shields.io/badge/Discord-5865F2?style=for-the-badge&logo=discord&logoColor=white" alt="Discord" /></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Platform/stargazers"><img src="https://img.shields.io/github/stars/ishandutta2007/Awesome-Enterprise-Learning-Platform?style=flat-square" alt="Stars"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Platform/network/members"><img src="https://img.shields.io/github/forks/ishandutta2007/Awesome-Enterprise-Learning-Platform?style=flat-square" alt="Forks"/></a>
+  <a href="https://github.com/ishandutta2007/Awesome-Enterprise-Learning-Platform/blob/main/LICENSE"><img src="https://img.shields.io/github/license/ishandutta2007/Awesome-Enterprise-Learning-Platform?style=flat-square" alt="License"/></a>
+  <a href="https://github.com/ishandutta2007"><img alt="GitHub followers" src="https://img.shields.io/github/followers/ishandutta2007?label=Follow" /></a>
+</p>
+
+> 📚 **Curated List of SaaS Products & Open-Source GitHub Projects**
+> 
+> *Focused on Corporate Learning Management Systems (LMS), Learning Experience Platforms (LXP), Compliance Training, Employee Onboarding & Skills Development*
+>
+> 📅 **Last updated: October 2026**
 
 ---
 
+This repository tracks notable **SaaS platforms** and **open-source projects** for **Enterprise Learning**. These tools empower human resources (HR), L&D professionals, and enterprises to deliver employee training, track regulatory compliance, nurture internal talent, and create scalable workforce learning experiences.
 
+### 🌟 Key Highlights
 
-**Made for L&D managers, HR leaders, corporate trainers, and IT administrators.**
+- ☁️ **Commercial SaaS Leaders**: Microsoft Viva Learning, Cornerstone OnDemand, Docebo, Absorb LMS, SAP Litmos, 360Learning, Degreed, EdCast, LearnUpon, and TalentLMS.
+- 🔓 **Production-Grade Open Source**: **Moodle** (300M+ users globally), **Open edX** (MOOC-scale infrastructure), **Canvas LMS** (modern UI/UX), **Chamilo**, **ILIAS**, and **Frappe LMS**.
 
-Let's make enterprise learning more open, transparent, and accessible.
+---
+
+## 📖 Table of Contents
+
+- [☁️ SaaS / Hosted Platforms](#%EF%B8%8F-saas--hosted-platforms)
+- [🔓 Open-Source GitHub Projects](#-open-source-github-projects)
+- [🤝 How to Contribute](#-how-to-contribute)
+- [☕ Support & Sponsorship](#-support--sponsorship)
+- [⚠️ Disclaimer](#%EF%B8%8F-disclaimer)
+- [📈 Star History](#-star-history)
+
+---
+
+## ☁️ SaaS / Hosted Platforms
+
+> **📊 Market Context & Size**: The global enterprise learning platform market is estimated at **~$25 Billion in 2026**, projected to grow at a CAGR of ~12% toward **~$50 Billion by 2032**. The sector is **moderately fragmented** — vendors such as Microsoft, Cornerstone OnDemand, Docebo, SAP, and Workday lead key segments, but no single vendor holds a winner-take-all monopoly. Enterprises frequently adopt multi-vendor learning stacks.
+
+| Platform | Description | Pricing (Starting Tier) | Free Tier / Trial Limits | Company Size (Valuation / Revenue) |
+| :--- | :--- | :--- | :--- | :--- |
+| **[Microsoft Viva Learning](https://www.microsoft.com/en-us/microsoft-viva/learning)** 🏢 | **Microsoft's learning platform within Viva.** Integrates LinkedIn Learning, Microsoft Learn, and 3rd-party content into M365 and Teams. | **$4.00/user/month** (annual commitment); Viva Suite: **$12.00/user/month** | **No perpetual free tier**. 30-day free trial available | **~$281B Revenue** (Microsoft FY2025) |
+| **[SAP Litmos](https://www.litmos.com/)** ⚡ | **Corporate LMS for compliance and workforce training.** Platinum AI and automated course creation capabilities. | **Pro Edition**: **$7.92/user/month** (ADP Marketplace); Pro + Courses: **$19.92/user/month** | **14-day free trial**; no perpetual free tier | **~$35B Revenue** (Parent SAP) |
+| **[Degreed](https://degreed.com/)** 🎯 | **Learning experience platform (LXP).** Aggregates content from multiple sources and tracks skills. | **$10,000–$25,000/year** entry-tier (100–500 users); Enterprise: **$75,000+/year** | **No free tier**; interactive enterprise demo required | **~$1.4B Valuation** (Private) |
+| **[Cornerstone OnDemand](https://www.cornerstoneondemand.com/)** 🏛️ | **Comprehensive talent experience platform.** Learning, performance, recruiting, and HR modules. Ranked top 3 in ISG 2026. | **Learning module**: **$6–$10/employee/month** ($72K–$120K/year for 1,000 users); Full TXP: **$15–$25/employee/month** | **No free tier**; enterprise demo required | **~$850M+ Revenue** (CSOD) |
+| **[Docebo](https://www.docebo.com/)** 🤖 | **AI-powered LMS with modern UX.** Rated Exemplary in ISG 2026. Tiers: Engage, Enterprise, Enterprise Plus. | **Custom enterprise pricing** (Engage plan starts entry-level with custom user seats) | **No perpetual free tier**; 14-day free trial available | **~$200M+ Revenue** (Public DCBO) |
+| **[Absorb LMS](https://www.absorblms.com/)** 📊 | **Enterprise-grade LMS with advanced analytics and AI.** Rated Exemplary in ISG 2026. | **Mid-five figures annually** for 500+ learners (e.g., $8,594.60/quarter for 2,000 active users) | **No perpetual free tier**; free trial & sandbox available | **~$100M+ Revenue** (Private) |
+| **[360Learning](https://360learning.com/)** 👥 | **Collaborative learning platform.** Peer-to-peer content creation and engagement-focused LMS. | **Team plan**: **$8.00/active user/month** (up to 100 users); Pro plan custom pricing | **No perpetual free tier**; 30-day free trial available | **~$100M+ Revenue** (Private) |
+| **[LearnUpon](https://www.learnupon.com/)** 🌐 | **Unified LMS for employees, partners, and customers.** Rated Exemplary in ISG 2026. | **Custom tiered pricing** starting from 100 users (Employee), 300 users (Customer) | **No perpetual free tier**; guided demo required | **~$100M+ Revenue** (Private) |
+| **[EdCast](https://www.edcast.com/)** 💡 | **Learning experience platform (LXP) with automated content curation.** | **Custom pricing** (Starting rates benchmarked at **$1.00/user/year** minimum tier) | **Free trial** & limited free evaluation plan | **Part of Cornerstone** (Acquired) |
+| **[TalentLMS](https://www.talentlms.com/)** 🚀 | **Cloud LMS optimized for SMBs and mid-market teams.** | **Starter plan**: **$149.00/month** (up to 40 users); Standard: **$299.00/month** | **Free tier**: Up to **5 users**, 10 courses, limited features | **Part of Epignosis** |
+
+---
+
+## 🔓 Open-Source GitHub Projects
+
+Below are production-tested open-source learning management systems and platforms, sorted by **GitHub Star count (descending)**.
+
+| Repo & Description | Stars |
+| :--- | :--- |
+| 🎓 **[Open edX](https://github.com/openedx/edx-platform)**<br>**Best for MOOCs and massive-scale learning.** Built by MIT and Harvard to power edX.org. Offers video learning paths, discussion forums, auto-graded exercises, and certificate issuance. Scalable to millions of learners. *(AGPL-3.0)* | [![Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers) |
+| 🏫 **[Moodle](https://github.com/moodle/moodle)**<br>**The most widely deployed open-source LMS globally.** Used by 300M+ users across 240+ countries. Features 2,000+ plugins, full SCORM 1.2/2004 & LTI compliance, 40+ quiz question types, and competency tracking. *(GPL-3.0)* | [![Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) |
+| 🎨 **[Canvas LMS](https://github.com/instructure/canvas-lms)**<br>**Best UI/UX among open-source LMS.** Developed by Instructure with a modern web interface, clean assignment workflows, speedgrader tools, and extensible REST APIs. *(AGPL-3.0)* | [![Stars](https://img.shields.io/github/stars/instructure/canvas-lms?style=social&color=white)](https://github.com/instructure/canvas-lms/stargazers) |
+| ⚡ **[Frappe LMS](https://github.com/frappe/lms)**<br>**Modern, full-stack open-source LMS.** Built on the Python/JS Frappe Framework. Easy setup, course builder, quizzes, student portals, and clean modern aesthetics. *(GPL-3.0)* | [![Stars](https://img.shields.io/github/stars/frappe/lms?style=social&color=white)](https://github.com/frappe/lms/stargazers) |
+| 📡 **[Kolibri](https://github.com/learningequality/kolibri)**<br>**Best for offline and low-bandwidth environments.** Lightweight learning application designed to bridge the digital divide in remote areas. Minimal hardware footprint. *(MIT)* | [![Stars](https://img.shields.io/github/stars/learningequality/kolibri?style=social&color=white)](https://github.com/learningequality/kolibri/stargazers) |
+| 📚 **[Gibbon](https://github.com/GibbonEdu/core)**<br>**Flexible open-source school & learning management platform.** Flexible PHP architecture covering lesson planning, student assessment, markbooks, and timetable scheduling. *(GPL-3.0)* | [![Stars](https://img.shields.io/github/stars/GibbonEdu/core?style=social&color=white)](https://github.com/GibbonEdu/core/stargazers) |
+| 🌲 **[Chamilo](https://github.com/chamilo/chamilo-lms)**<br>**Best lightweight LMS for small-to-mid teams.** Easy administration, low server overhead (2 GB RAM recommended), quizzes, BigBlueButton integration, and SCORM support. *(GPL-3.0)* | [![Stars](https://img.shields.io/github/stars/chamilo/chamilo-lms?style=social&color=white)](https://github.com/chamilo/chamilo-lms/stargazers) |
+| 🏛️ **[Sakai](https://github.com/sakaiproject/sakai)**<br>**Enterprise higher-ed and corporate collaboration environment.** Java-based platform providing robust course authoring, grading, and group collaboration tools. *(ECL-2.0)* | [![Stars](https://img.shields.io/github/stars/sakaiproject/sakai?style=social&color=white)](https://github.com/sakaiproject/sakai/stargazers) |
+| 🛡️ **[ILIAS](https://github.com/ILIAS-eLearning/ILIAS)**<br>**Best for corporate compliance & security-conscious teams.** German-engineered LMS featuring rigorous competency management, assessment engines, and SCORM 2004 support. *(GPL-3.0)* | [![Stars](https://img.shields.io/github/stars/ILIAS-eLearning/ILIAS?style=social&color=white)](https://github.com/ILIAS-eLearning/ILIAS/stargazers) |
+| 🇨🇭 **[OpenOLAT](https://github.com/OpenOLAT/OpenOLAT)**<br>**Swiss open-source LMS for learning & training.** Java-based learning management system tailored for university and corporate continuing education. *(Apache-2.0)* | [![Stars](https://img.shields.io/github/stars/OpenOLAT/OpenOLAT?style=social&color=white)](https://github.com/OpenOLAT/OpenOLAT/stargazers) |
+| 🧩 **[LearnDash Core](https://github.com/LearnDashHQ/learndash)**<br>**Popular WordPress LMS codebase.** Core open-source components for building e-learning courses on WordPress ecosystems. *(GPL-2.0)* | [![Stars](https://img.shields.io/github/stars/LearnDashHQ/learndash?style=social&color=white)](https://github.com/LearnDashHQ/learndash/stargazers) |
+
+---
+
+## 🤝 How to Contribute
+
+Contributions are welcome! Please follow these simple guidelines:
+
+1. 🍴 **Fork** this repository.
+2. 📝 Edit `README.md` to add your proposed platform or project (ensure proper Markdown formatting).
+3. 🔎 Provide details including category, pricing/license, free tier limits, and starry badge links.
+4. 🚀 Submit a **Pull Request** with a clear title and context.
+
+Check out our curated meta-list at [Awesome-Awesome-Awesome](https://github.com/ishandutta2007/Awesome-Awesome-Awesome) for more curated resources!
+
+---
+
+## ☕ Support & Sponsorship
+
+If you find this repository helpful for evaluating enterprise learning systems or building educational tech stacks, please consider showing your support:
+
+- ⭐ **Star** this repository to increase its visibility.
+- 🔀 **Fork** and share it with your L&D and engineering teams.
+- ☕ **Buy me a coffee / Sponsor**: Support ongoing maintenance on the [GitHub Sponsor Dashboard](https://github.com/sponsors/ishandutta2007).
+
+Thank you for supporting open-source software and knowledge sharing! ❤️
+
+---
+
+## ⚠️ Disclaimer
+
+- This list is **community-curated** for research purposes and does not constitute endorsement.
+- Ensure all selected platforms comply with organizational data governance, **GDPR**, and **SOC 2** standards.
+- **Pricing note**: Commercial software prices fluctuate based on contract size and active learner count. Always request an official quote from vendors.
+
+---
+
+## 📈 Star History
+
+[![Star History Chart](https://star-history.dera.page/svg?repos=ishandutta2007/Awesome-Enterprise-Learning-Platform&type=date&legend=top-left)](https://star-history.dera.page/#ishandutta2007/Awesome-Enterprise-Learning-Platform&type=date&legend=top-left)
+
+---
+
+<p align="center">
+  <b>Made with ❤️ for L&D leaders, HR professionals, and E-Learning developers worldwide.</b>
+</p>
