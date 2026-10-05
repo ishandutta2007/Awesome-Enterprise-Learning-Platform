@@ -64,9 +64,9 @@ This repository tracks notable **SaaS platforms** and **open-source projects** f
 
 ## 🔓 Open-Source GitHub Projects
 
-Below are production-tested open-source learning management systems and platforms, sorted by **GitHub Star count (descending)**.
+Below are production-tested open-source learning management systems and platforms, sorted by **GitHub Stars_Count (descending)**.
 
-| Repo & Description | Stars |
+| Repo & Description | GitHub_Stars |
 | :--- | :--- |
 | 🎓 **[Open edX](https://github.com/openedx/edx-platform)**<br>**Best for MOOCs and massive-scale learning.** Built by MIT and Harvard to power edX.org. Offers video learning paths, discussion forums, auto-graded exercises, and certificate issuance. Scalable to millions of learners. *(AGPL-3.0)* | [![Stars](https://img.shields.io/github/stars/openedx/edx-platform?style=social&color=white)](https://github.com/openedx/edx-platform/stargazers) |
 | 🏫 **[Moodle](https://github.com/moodle/moodle)**<br>**The most widely deployed open-source LMS globally.** Used by 300M+ users across 240+ countries. Features 2,000+ plugins, full SCORM 1.2/2004 & LTI compliance, 40+ quiz question types, and competency tracking. *(GPL-3.0)* | [![Stars](https://img.shields.io/github/stars/moodle/moodle?style=social&color=white)](https://github.com/moodle/moodle/stargazers) |
